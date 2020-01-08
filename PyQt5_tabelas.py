@@ -1,6 +1,8 @@
 from PyQt5 import QtGui
 import sys
 from PyQt5.QtWidgets import QApplication, QMainWindow, QWidget, QTableWidget, QTableWidgetItem, QVBoxLayout
+# Adicionando um comentário
+
 
 class Window(QWidget):
     def __init__(self):
