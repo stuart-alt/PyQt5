@@ -1,7 +1,6 @@
 from PyQt5 import QtGui
 import sys
-from PyQt5.QtWidgets import QApplication, QMainWindow, QWidget, QTableWidget, QTableWidgetItem, QVBoxLayout
-# Adicionando um comentário
+from PyQt5.QtWidgets import QApplication, QWidget, QTableWidget, QTableWidgetItem, QVBoxLayout
 
 
 class Window(QWidget):
@@ -26,15 +25,15 @@ class Window(QWidget):
         self.setLayout(self.vBoxLayout)
         self.show()
 
-
     def creatingTables(self):
         self.tableWidget = QTableWidget()
-        self.tableWidget.setRowCount(5)
+        self.tableWidget.setRowCount(4)
         self.tableWidget.setColumnCount(3)
 
         self.tableWidget.setItem(0, 0, QTableWidgetItem("Nome"))
         self.tableWidget.setItem(0, 1, QTableWidgetItem("Telefone"))
         self.tableWidget.setItem(0, 2, QTableWidgetItem("Email"))
+
 
 App = QApplication(sys.argv)
 window = Window()
