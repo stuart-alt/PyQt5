@@ -24,7 +24,6 @@ class Window(QMainWindow):
 
         self.InitWindow()
 
-
     def InitWindow(self):
         mainMenu = self.menuBar()
         ArquivoMenu = mainMenu.addMenu("Arquivo")

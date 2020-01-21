@@ -23,7 +23,6 @@ class Window(QMainWindow):
         self.createButton()
         self.show()
 
-
     def createButton(self):
         button = QPushButton("DON'T click me", self)
         # button.move(50, 50)
@@ -36,7 +35,6 @@ class Window(QMainWindow):
     def ClickMe(self):
         # print("Hello World")
         sys.exit()
-
 
 
 App = QApplication(sys.argv)
