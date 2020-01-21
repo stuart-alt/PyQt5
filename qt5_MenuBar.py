@@ -79,6 +79,10 @@ class Window(QMainWindow):
         aboutAction.triggered.connect(self.AboutMessageBox)
         helpMenu.addAction(aboutAction)
 
+        choiceAction = QAction(QIcon("_imagens/choice.ico"), "Choice Message", self)
+        choiceAction.triggered.connect(self.choiceMessageBox)
+        helpMenu.addAction(choiceAction)
+
         toolbar = self.addToolBar("Toolbar")
         toolbar.addAction(printAction)
         toolbar.addAction(printPreviewAction)
@@ -90,6 +94,7 @@ class Window(QMainWindow):
         toolbar.addAction(colorAction)
         toolbar.addAction(exitAction)
         toolbar.addAction(aboutAction)
+        toolbar.addAction(choiceAction)
 
     def exitWindow(self):
         self.close()
@@ -134,11 +139,18 @@ class Window(QMainWindow):
             self.textEdit.document().print_(printer)
 
     def AboutMessageBox(self):
-        message = QMessageBox.about(self, "About Application", "This is a simple text editor application")
+        message = QMessageBox.about(self, "About Application", "This is a simple text editor application \
+                                                                Licensed under GPL Free Applications \
+                                                                Stu_dados ;) ")
 
     def choiceMessageBox(self):
         message = QMessageBox.question(self, "Choice Message", "Do you like PyQt5?", \
                                        QMessageBox.Yes | QMessageBox.No)
+
+        if message == QMessageBox.Yes:
+            self.textEdit.setText("Yes, I like it.")
+        else:
+            self.textEdit.setText("No, I don't like it.")
 
 
 if __name__ == "__main__":
