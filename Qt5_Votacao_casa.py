@@ -164,31 +164,22 @@ class Window(QWidget):
         )
         mycursor = mydb.cursor()
 
-        qry = QSqlQuery()
-        sql = """SELECT E.ESPORTE, SUM(V.FK_ESPORTE) AS "TOTAL VOTOS"
+        model = QSqlTableModel()
+        # model.setTable("esportes")
+        model.setQuery("""SELECT E.ESPORTE, SUM(V.FK_ESPORTE) AS "TOTAL VOTOS"
         FROM ESPORTES E
         INNER JOIN VOTOS V
         ON E.ID = V.FK_ESPORTE
-        GROUP BY V.FK_ESPORTE;"""
-
-        model = QSqlQueryModel()
-        model.setQuery(sql)
+        GROUP BY V.FK_ESPORTE;""")
+        model.setEditStrategy(QSqlTableModel.OnManualSubmit)
+        model.select()
+        # model.removeColumn(0)  # don't show the ID
+        model.setHeaderData(0, Qt.Horizontal, tr("esporte"))
+        model.setHeaderData(1, Qt.Horizontal, tr("votos"))
 
         view = QTableView()
         view.setModel(model)
-
         view.show()
-
-        """mycursor.execute(sql)
-        resultado = mycursor.fetchall()
-        print(resultado)"""
-
-
-        """msg = QMessageBox()
-        msg.setWindowTitle("Votos até o momento")
-        msg.setText(resultado)
-
-        x = msg.exec_()"""
 
     def close_app(self):
         self.show_popup()
