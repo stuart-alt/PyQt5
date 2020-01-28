@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c72e0cf-88ea-4d47-99d6-7c87b3b46784" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Qt5_Votacao.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qt5_QDialog.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qt5_QTableWidget.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qt5_python_connector.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qt5_Completer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qt5_QCombobox.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qt5_QDockWidget.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qt5_QTimeEdit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qt5_QWidget_List.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qt5_Second_dialog.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pushbutton_Message.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pushbutton_Message.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PyQt5_primeiro_form.py" beforeDir="false" afterPath="$PROJECT_DIR$/PyQt5_primeiro_form.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qt5_signal_and_slots.py" beforeDir="false" afterPath="$PROJECT_DIR$/qt5_signal_and_slots.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,10 +39,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.qt5_QDialog">
-    <configuration name="Qt5_Votacao_casa" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.qt5_QWidget_List">
+    <configuration name="qt5_Completer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PyQt5" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -55,7 +54,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\stuar\PycharmProjects\PyQt5\Qt5_Votacao_casa.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qt5_Completer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -64,7 +63,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="qt5_QDialog" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="qt5_QCombobox" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PyQt5" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -76,7 +75,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qt5_QDialog.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qt5_QCombobox.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -85,7 +84,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="qt5_QgroupBox" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="qt5_QTimeEdit" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PyQt5" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -97,7 +96,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qt5_QgroupBox.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qt5_QTimeEdit.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -106,7 +105,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="qt5_python_connector" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="qt5_QWidget_List" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PyQt5" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -118,7 +117,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qt5_python_connector.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qt5_QWidget_List.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -127,7 +126,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="qt5_signal_and_slots" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="qt5_Second_dialog" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PyQt5" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -139,7 +138,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qt5_signal_and_slots.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qt5_Second_dialog.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -150,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.qt5_QDialog" />
-        <item itemvalue="Python.Qt5_Votacao_casa" />
-        <item itemvalue="Python.qt5_python_connector" />
-        <item itemvalue="Python.qt5_signal_and_slots" />
-        <item itemvalue="Python.qt5_QgroupBox" />
+        <item itemvalue="Python.qt5_QWidget_List" />
+        <item itemvalue="Python.qt5_QTimeEdit" />
+        <item itemvalue="Python.qt5_Second_dialog" />
+        <item itemvalue="Python.qt5_Completer" />
+        <item itemvalue="Python.qt5_QCombobox" />
       </list>
     </recent_temporary>
   </component>
@@ -188,61 +187,90 @@
       <option name="project" value="LOCAL" />
       <updated>1578445921842</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Arquivos de Casa">
+      <created>1579630872076</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1579630872076</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Arquivos de Casa">
+      <created>1579636589138</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1579636589138</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Arquivos de Casa">
+      <created>1579637072972</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1579637072972</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Arquivos de Casa">
+      <created>1579739233859</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1579739233859</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adicionando um comentario" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adicionando um comentario" />
+    <MESSAGE value="Arquivos de Casa" />
+    <option name="LAST_COMMIT_MESSAGE" value="Arquivos de Casa" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="436" y="12" key="CommitChangelistDialog2" timestamp="1579630871307">
+    <state x="436" y="12" key="CommitChangelistDialog2" timestamp="1579739233304">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="436" y="12" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1579630871307" />
-    <state width="724" height="194" key="GridCell.Tab.0.bottom" timestamp="1579395115205">
+    <state x="436" y="12" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1579739233304" />
+    <state width="724" height="194" key="GridCell.Tab.0.bottom" timestamp="1579823830884">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="724" height="194" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1579395115205" />
-    <state width="724" height="194" key="GridCell.Tab.0.center" timestamp="1579395115205">
+    <state width="724" height="194" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1579823830884" />
+    <state width="724" height="194" key="GridCell.Tab.0.center" timestamp="1579823830884">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="724" height="194" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1579395115205" />
-    <state width="724" height="194" key="GridCell.Tab.0.left" timestamp="1579395115205">
+    <state width="724" height="194" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1579823830884" />
+    <state width="724" height="194" key="GridCell.Tab.0.left" timestamp="1579823830884">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="724" height="194" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1579395115205" />
-    <state width="724" height="194" key="GridCell.Tab.0.right" timestamp="1579395115205">
+    <state width="724" height="194" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1579823830884" />
+    <state width="724" height="194" key="GridCell.Tab.0.right" timestamp="1579823830884">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="724" height="194" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1579395115205" />
-    <state width="719" height="261" key="GridCell.Tab.1.bottom" timestamp="1579216587599">
+    <state width="724" height="194" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1579823830884" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1579637206532">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="719" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1579216587599" />
-    <state width="719" height="261" key="GridCell.Tab.1.center" timestamp="1579216587599">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1579637206532" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1579637206532">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="719" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1579216587599" />
-    <state width="719" height="261" key="GridCell.Tab.1.left" timestamp="1579216587599">
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1579637206532" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1579637206532">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="719" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1579216587599" />
-    <state width="719" height="261" key="GridCell.Tab.1.right" timestamp="1579216587599">
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1579637206532" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1579637206532">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="719" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1579216587599" />
-    <state x="279" y="58" key="SettingsEditor" timestamp="1579040889828">
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1579637206532" />
+    <state x="279" y="58" key="SettingsEditor" timestamp="1579632690102">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="279" y="58" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1579040889828" />
-    <state x="361" y="149" key="Vcs.Push.Dialog.v2" timestamp="1578445928152">
+    <state x="279" y="58" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1579632690102" />
+    <state x="361" y="149" key="Vcs.Push.Dialog.v2" timestamp="1579739235976">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="149" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1578445928152" />
-    <state x="814" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1579214085518">
+    <state x="361" y="149" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1579739235976" />
+    <state x="814" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1579819581654">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="814" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1579214085518" />
+    <state x="814" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1579819581654" />
   </component>
 </project>
